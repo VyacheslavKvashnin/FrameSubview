@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var mainView: MainView { return self.view as! MainView }
+    
+    override func loadView() {
+        view = MainView(frame: UIScreen.main.bounds)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        mainView.likeAction = {
+            self.mainView.contentView.backgroundColor = UIColor.red
+        }
     }
-
-
 }
 

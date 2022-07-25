@@ -13,6 +13,7 @@
 		BDAA0B03288F0FD100091925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA0B01288F0FD100091925 /* Main.storyboard */; };
 		BDAA0B05288F0FD400091925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA0B04288F0FD400091925 /* Assets.xcassets */; };
 		BDAA0B08288F0FD400091925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA0B06288F0FD400091925 /* LaunchScreen.storyboard */; };
+		BDAA0B10288F0FEE00091925 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA0B0F288F0FEE00091925 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BDAA0B04288F0FD400091925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDAA0B07288F0FD400091925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDAA0B09288F0FD400091925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA0B0F288F0FEE00091925 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BDAA0AFB288F0FD100091925 /* AppDelegate.swift */,
 				BDAA0AFD288F0FD100091925 /* SceneDelegate.swift */,
+				BDAA0B0F288F0FEE00091925 /* MainView.swift */,
 				BDAA0AFF288F0FD100091925 /* ViewController.swift */,
 				BDAA0B01288F0FD100091925 /* Main.storyboard */,
 				BDAA0B04288F0FD400091925 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDAA0B00288F0FD100091925 /* ViewController.swift in Sources */,
+				BDAA0B10288F0FEE00091925 /* MainView.swift in Sources */,
 				BDAA0AFC288F0FD100091925 /* AppDelegate.swift in Sources */,
 				BDAA0AFE288F0FD100091925 /* SceneDelegate.swift in Sources */,
 			);
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
